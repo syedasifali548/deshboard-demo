@@ -1,0 +1,18 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+:root {
+ --white-color:#ffff;
+ --red-color: rgb(172, 66, 66);
+ --primary:#046357;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 18px;
+}
+

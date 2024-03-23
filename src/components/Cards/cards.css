@@ -1,0 +1,28 @@
+.card_container{
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+.card_container .card_main{
+    flex-direction: column;
+    background-color: var(--primary);
+    color: var(--white-color);
+    border-radius: 15px;
+    margin-top: 2rem;
+    box-shadow: 0 6px 7px rgba(0.5, 0.4, 0.3, 0.32), 0 5px 4px rgba(0.4, 0.3, 4, 0.12);
+    width: 270px;
+    height: 250px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.card_container .card_main img{
+   width: 25px;
+   height: 25px;
+   display: block;
+        margin-left: auto;
+   margin-block: 15px;
+     
+}
+    
