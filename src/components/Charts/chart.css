@@ -1,0 +1,10 @@
+.card_chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5rem;
+}
+.cardContent {
+    height: 18px;
+}

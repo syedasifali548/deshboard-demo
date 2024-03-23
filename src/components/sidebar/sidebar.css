@@ -1,14 +1,15 @@
 .sidebar{
     background-color: var(--primary);
-    height: 80vh;
+    height: 88vh;
+    transform: translate(-24px, -10px);
 }
 .top_section{
     position: relative;
 }
 .top_section .bars {
     position: absolute;
-    top: -4rem;
-    left: 13rem;
+       top: -4rem;
+    left: 10rem;
 }
 .burger{
     position: absolute;

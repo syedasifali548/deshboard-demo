@@ -8,12 +8,13 @@ import icon from "../../assets/images/icon.png";
 import "./home.css";
 import NumCard from "../../components/NumCard/NumCard";
 import Cards from "../../components/Cards/Cards";
+import Chart from "../../components/Charts/Chart";
 const Home = () => {
   return (
     <div>
       <Topbar />
 
-      <Container fluid className="gx-0">
+      <Container fluid>
         <Row>
           <Col md={3}>
             <Sidebars />
@@ -21,14 +22,21 @@ const Home = () => {
           <Col md={8}>
             <DropDownData />
               <NumCard />
+              </Col>
+              <Col md={1}>
+              <div className="iconImg">
+                <img src={icon} alt="" className="img-fluid" />
+              </div>
+             
+            </Col>  
+               </Row>
+        
+              <Row>
+              <Col md={3}></Col>
+              <Col md={9}>
               <Cards/>
           </Col>
-          <Col md={1}>
-            <div className="iconImg">
-              <img src={icon} alt="" />
-            </div>
-           
-          </Col>
+         
         </Row>
       </Container>
     </div>
